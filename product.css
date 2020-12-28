@@ -1,0 +1,138 @@
+body {
+    background-color: white;
+    font-family: helvetica;
+    background-image: url("https://previews.123rf.com/images/cnuisin/cnuisin1809/cnuisin180900453/109629115-dog-bone-dog-paw-seamless-pattern-vector-bulldog-puppy-vector-repeat-background-wallpaper-white.jpg");
+  }
+  div.header-img {
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+      position: fixed;  
+  }
+  #header-img{
+    width: 250px;
+    margin: auto;
+    display: block;
+  }
+  div.nav-bar{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 90px; 
+  }
+  .nav-link{
+    color: Blue;
+    text-decoration: none; 
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 50px;
+    float: left; 
+    transition: background .5s ease;
+    margin: auto;
+  }
+  .nav-link:hover{
+    background-color: lightblue;
+    }
+  .title{
+    margin-top:150px;
+    color: #005fb3;
+    text-align:center;
+  }
+  #email {
+    display: block;
+    margin: auto;
+    width: 180px;
+    padding: 8px; 
+    border-radius: 50px;
+  }
+  #submit{
+    display: block;
+    margin: auto;
+    padding: 9px;
+    border: none;
+    border-radius: 50px;
+    width: 80px;
+    background-color: darkgray;
+    margin-top: 10px;
+    transition: background .5s ease;
+  }
+  #submit:hover{
+    background-color: lightblue;
+  }
+  .text{
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px  solid black;
+    background-color: lightblue;
+  }
+    #image{
+    max-width: 30%;
+    height: auto;
+   display: block; 
+   margin: auto;
+  }
+      
+    #video { 
+         margin: auto;
+      width:50%;
+    height: 50%;
+   display: block; 
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 5px;
+      }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  div.flex-container{
+    display: flex;
+    justify-content: center;
+    text-align:center; 
+  }
+  div.products{
+    background-color: lightblue;
+    margin: 20px;
+    transition: box-shadow .5s ease;
+  }
+  .products:hover{
+    box-shadow:0px 0px 10px #008fb3;
+  }
+  div.product-title{
+    padding: 10px;
+    background-color: #32a873;
+    text-align:center;
+  }
+  #product-submit{
+    background-color: #32a873;
+      border: none;
+    width:100%;
+    font-size: 20px;
+    padding: 15px;
+    transition: background .5s ease; 
+    color: white;
+    font-size:15px;
+   
+  }
+  #product-submit:hover{
+    background-color: blue;
+  }
+  @media screen and (max-width){
+    .flex-container{
+      flex-direction: column;
+    }
+  }
+  .text{
+    width: 400px;
+    
+  }
+  .sub{
+    text-align:center;
+    color:blue;
+  }
